@@ -10,6 +10,6 @@ $ yarn install
 $ node app.js
 ```
 
-# Postman
+## Postman
 
 GET http://localhost:3333/music
