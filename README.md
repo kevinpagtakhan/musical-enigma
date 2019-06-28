@@ -12,4 +12,4 @@ $ node app.js
 
 # Postman
 
-GET /music
+GET http://localhost:3333/music
