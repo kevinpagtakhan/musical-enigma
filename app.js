@@ -20,7 +20,13 @@ app.get('/music', (req, res, next) => {
 });
 
 app.use((err, req, res, next) => {
-    res.status(err.status).json({ status: err.status, message: err.message, name: err.name });
+    res
+        .status(err.status)
+        .json({
+            status: err.status,
+            message: err.message,
+            name: err.name
+        });
 });
 
 server.listen(3333, () => console.log(`musical-enigma @ localhost:${PORT}`));

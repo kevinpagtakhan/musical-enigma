@@ -15,10 +15,14 @@ paths:
           in: query
           description: Filter results by genre
           required: true
+          schema:
+            type: string
         - name: artist
           in: query
           description: Filter results by artist
           required: true
+          schema:
+            type: string
       responses:
         '200':
           description: An empty object
