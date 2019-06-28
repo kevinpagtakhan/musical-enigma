@@ -13,10 +13,6 @@ $ yarn install
 $ node app.js
 ```
 
-### Postman
-
-`GET` http://localhost:3333/music
-
 ## Solution #2
 Using `express-openapi-validate`
 
@@ -29,9 +25,13 @@ $ yarn install
 $ node app-2.js
 ```
 
-### Postman
+## Test on Postman
 
 `GET` http://localhost:3333/music
+`GET` http://localhost:3333/music?genre=rock
+`GET` http://localhost:3333/music?genre=rock&artist=me&year=1992
+`GET` http://localhost:3333/music?genre=rock&artist=me&year=notanumber
+`GET` http://localhost:3333/instrument
 
 
 ## Notes

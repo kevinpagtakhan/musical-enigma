@@ -23,6 +23,12 @@ paths:
           required: true
           schema:
             type: string
+        - name: year
+          in: query
+          description: Filter results by artist
+          required: true
+          schema:
+            type: number
       responses:
         '200':
           description: An empty object
