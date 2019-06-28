@@ -1,0 +1,23 @@
+{
+  "name": "musical-enigma",
+  "version": "1.0.0",
+  "description": "Node Express app validated using OpenAPI spec",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinpagtakhan/musical-enigma.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevinpagtakhan/musical-enigma/issues"
+  },
+  "homepage": "https://github.com/kevinpagtakhan/musical-enigma#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-openapi-validator": "^1.0.0"
+  }
+}
