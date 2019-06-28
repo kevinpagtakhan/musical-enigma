@@ -27,11 +27,11 @@ $ node app-2.js
 
 ## Test on Postman
 
-`GET` http://localhost:3333/music
-`GET` http://localhost:3333/music?genre=rock
-`GET` http://localhost:3333/music?genre=rock&artist=me&year=1992
-`GET` http://localhost:3333/music?genre=rock&artist=me&year=notanumber
-`GET` http://localhost:3333/instrument
+* `GET` http://localhost:3333/music
+* `GET` http://localhost:3333/music?genre=rock
+* `GET` http://localhost:3333/music?genre=rock&artist=me&year=1992
+* `GET` http://localhost:3333/music?genre=rock&artist=me&year=notanumber
+* `GET` http://localhost:3333/instrument
 
 
 ## Notes
